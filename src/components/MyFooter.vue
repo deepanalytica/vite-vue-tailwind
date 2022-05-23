@@ -15,29 +15,28 @@
         />
       </svg>
       <p>
-        My Company Ltd.
-        <br />Providing reliable tech since 2021
+        Deep Analytica SpA.
+        <br />AI & Data Science 
       </p>
     </div>
     <div>
-      <span class="footer-title">Services</span>
-      <a class="link-hover link">Branding</a>
-      <a class="link-hover link">Design</a>
-      <a class="link-hover link">Marketing</a>
-      <a class="link-hover link">Advertisement</a>
+      <span class="footer-title">Servicios</span>
+      <a class="link-hover link">Analítica de Datos</a>
+      <a class="link-hover link">Transformación Digital</a>
+      <a class="link-hover link">Marketing 360</a>
+      <a class="link-hover link">Desarrollo de Software </a>
     </div>
     <div>
-      <span class="footer-title">Company</span>
-      <a class="link-hover link">About us</a>
-      <a class="link-hover link">Contact</a>
-      <a class="link-hover link">Jobs</a>
-      <a class="link-hover link">Press kit</a>
+      <span class="footer-title">Deep Analytica</span>
+      <a class="link-hover link">Nosotros</a>
+      <a class="link-hover link">Contacto</a>
+      <a class="link-hover link">Proyectos</a>
+      <a class="link-hover link">Prensa</a>
     </div>
     <div>
       <span class="footer-title">Legal</span>
-      <a class="link-hover link">Terms of use</a>
-      <a class="link-hover link">Privacy policy</a>
-      <a class="link-hover link">Cookie policy</a>
+      <a class="link-hover link">Términos de uso</a>
+      <a class="link-hover link">Políticas de provacidad</a>
     </div>
   </footer>
   <slot></slot>

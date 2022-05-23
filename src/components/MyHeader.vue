@@ -1,21 +1,18 @@
 <template>
   <header class="navbar bg-base-100">
     <div class="flex-none">
-      <a class="btn btn-ghost text-xl normal-case">Company Name</a>
+      <a class="btn btn-ghost text-xl normal-case">Deep Analytica</a>
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal p-0">
         <li>
-          <router-link to="/">Home</router-link>
+          <router-link to="/">Inicio</router-link>
         </li>
         <li>
-          <router-link to="/not-found">NotFound</router-link>
+          <router-link to="/not-found">Servicios</router-link>
         </li>
         <li>
-          <router-link :to="`/hi/${counter.count}`" replace>DynamicRoute:{{ counter.count }}</router-link>
-        </li>
-        <li>
-          <router-link to="/about">About</router-link>
+          <router-link to="/about">Nosotros</router-link>
         </li>
       </ul>
     </div>
