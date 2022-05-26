@@ -16,14 +16,51 @@
         <ButtonRepo />
       </div>
     </div>
-    <div class="mx-auto max-w-screen-xl">
-      <ul class="list-disc">
-        <li>if a route does not exsit, this is the page to catch all</li>
-        <li>
-          see
-          <code>src/pages/[...all].vue</code>
-        </li>
-      </ul>
+   
+</div> 
+  
+<div>
+
+  <div
+      class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"
+    >
+  <div class="card w-96 bg-base-100 shadow-xl image-full">
+  <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Data Science</h2>
+    <p>Necesitas marcar la diferencia con un proyecto de Ciencia de Datos exitoso?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Leer más</button>
     </div>
   </div>
+</div>
+
+  <div class="card w-96 bg-base-100 shadow-xl image-full">
+  <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Inteligencia Artificial</h2>
+    <p>Quieres utilizar las capacidades de la IA a tu favor?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Leer más</button>
+    </div>
+  </div>
+</div>
+
+  <div class="card w-96 bg-base-100 shadow-xl image-full">
+  <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Transformación Digital</h2>
+    <p>Deseas que tu organización alcance el próximo nivel?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Leer más</button>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+
+</div>
+
+
 </template>

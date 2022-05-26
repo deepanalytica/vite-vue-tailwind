@@ -15,7 +15,31 @@
         <ButtonRepo />
       </div>
     </div>
-
+<div class="carousel w-full">
+  
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="https://images.unsplash.com/photo-1588600878108-578307a3cc9d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&" class="w-full"> / 
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+ 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6" class="w-full"> / 
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=225E6693" class="w-full"> / 
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
     <div class="mx-auto max-w-screen-xl">
       <ul class="list-disc">
         <li>Utilizamos métodos de Inteligencia Artificial e Ingeniería Matemática para Desentrañar patrones
